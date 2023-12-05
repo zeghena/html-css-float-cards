@@ -2,6 +2,8 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: fredoka;
+
 } 
 
 /* ###  grid   ### */
@@ -38,23 +40,42 @@ box-sizing: border-box;
     
 }
 
+.title{
+    text-align: center;
+    line-height: 3;
+    color: rgb(229, 49, 112);
+}
+.title .due{
+    
+    color: rgb(21, 20, 20);
+}
+
+
 .cont{
     width: 70%;
     margin: 0 auto;
+    margin-top: 30px;
+    background-color: rgb(15, 14, 23);
    
     
       
 }
 
 .card{
+    
     margin: 10px;
     float: left;
     width: 350px;
-    height: 150px;
+    height: 120px;
+    background-color: rgb(14, 14, 23);
+    color: rgb(206, 206, 217);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
+a{
+    color: rgb(49, 201, 206);
+}
 .img-f{
-    width: 150px;
+    width: 120px;
     float: left;
     
 }
